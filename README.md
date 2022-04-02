@@ -19,7 +19,13 @@ This is a [userScript](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/
   * For firefox: [Firfox Browser Add-ons: Violentmonkey](https://addons.mozilla.org/en-GB/firefox/addon/violentmonkey/)
   * If you're on Safari, I don't have the time to support it right now, but the [TamperMonkey](https://www.tampermonkey.net/?ext=dhdg&browser=safari) plugin manager works on Safari and should work mostly the same way as ViolentMonkey, so give it a try.
 
-2. Install the user script by clicking this [link](https://greasyfork.org/scripts/442564-r-place-overlay/code/rPlace%20Overlay.user.js) to install it to the script manager.
+2. I'm not sure how to actually set up userscripts so we'll do it the hard way. (chrome):
+  * Open reddit
+  * Click the little puzzle thing for extensions in the left top corner
+  * Click Violentmonkey and click the + icon to create a new script
+  * Copy the code from the userscript.user.js file found above and paste it in the script
+  * Press "Save" and then "Close"
+  * Refresh the reddit tab and it works now!
 
 ## Developer Notes
 
